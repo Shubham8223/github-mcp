@@ -9,7 +9,7 @@ GITHUB_API_BASE = settings.GITHUB_API_BASE_URL
 
 client = GitHubClient()
 
-mcp = FastMCP("GitHub MCP Server")
+mcp = FastMCP("GitHub MCP Server",  host="0.0.0.0", port=8000)
 
 
 
