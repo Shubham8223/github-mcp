@@ -1,0 +1,10 @@
+[project]
+name = "github-mcp"
+version = "0.1.0"
+description = "github mcp server"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.5.1",
+    "httpx>=0.28.1",
+]
